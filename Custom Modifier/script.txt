@@ -1,0 +1,20 @@
+//  "icons": {
+//    "16": "icon/cms_logo.png",
+//    "32": "icon/cms_logo.png",
+//    "48": "icon/cms_logo.png",
+//    "128": "icon/cms_logo.png"
+//  },
+
+  "browser_action": {
+    "default_title": "Custom Modifier",
+    "default_popup": "popup/popUpIndex.html",
+    "default_icon": "icon/cms_logo.png"
+  },
+
+  "web_accessible_resources": [
+    "popup/cms_logo_popup.png"
+   ]
+
+  "permissions": [
+    "storage"
+  ],

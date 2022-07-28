@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Custom Modifier",
+  "version": "1.0",
+  "description": "Custom functions for the web",
+
+  "content_scripts": [
+    {"matches": ["https://web.whatsapp.com/*"], "js": ["Scripts/whatsApp.js"]},
+    {"matches": ["https://www.minecraft.net/*"], "js": ["Scripts/minecraft.js"]},
+    {"matches": ["https://meet.google.com/*"], "js": ["Scripts/googleMeet.js"]}
+  ]
+
+
+}
